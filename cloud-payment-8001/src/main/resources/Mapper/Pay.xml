@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cloud.Mapper.payMapper">
+    <resultMap id="basemapper" type="com.cloud.Bean.payment">
+        <id column="id" property="id"></id>
+        <result column="num" property="num"></result>
+        <result column="price" property="price"></result>
+    </resultMap>
+    <insert id="add" useGeneratedKeys="true" >
+        insert into pay(num,price) value(#{num},#{price})
+    </insert>
+    <select id="findbyid" resultMap="basemapper">
+        select * from pay where id=#{id};
+    </select>
+</mapper>

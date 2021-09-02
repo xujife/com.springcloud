@@ -1,0 +1,16 @@
+server:
+  port: 9003
+spring:
+  application:
+    name: alibaba-provider-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+service-url:
+  nacos-user-service: http://nacos-payment-order

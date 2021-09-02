@@ -1,0 +1,30 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: cloud-config-3344
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/integral-required/springcloud.git
+          search-paths: config
+          force-pull: true
+          username: www.xu9864hu@qq.com
+          password: 6710869ab
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "bus-refresh"
+rabbitmq:
+  host: localhost
+  port: 5672
+  username: guest
+  password: guest

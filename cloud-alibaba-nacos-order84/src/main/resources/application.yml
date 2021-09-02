@@ -1,0 +1,20 @@
+server:
+  port: 84
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+        port: 8719
+  application:
+    name: alibaba-nacos-order
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+service-url:
+  nacos-user-service: http://alibaba-provider-service

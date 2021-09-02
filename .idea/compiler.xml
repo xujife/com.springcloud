@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-payment-8001" />
+        <module name="cloud-configcenter-3344" />
+        <module name="GitTest1" />
+        <module name="cloud-order-openfegin" />
+        <module name="cloud-alibaba-config-nacos-client-3377" />
+        <module name="cloud-paymentconsul-order-80" />
+        <module name="cloud-config-3366" />
+        <module name="cloud-alibaba-nacos-provider-9004" />
+        <module name="cloud-alibaba-nacos-provider-9003" />
+        <module name="cloud-alibaba-nacos-order84" />
+        <module name="cloud-streamConsumer-8803" />
+        <module name="cloud-streamConsumer-8802" />
+        <module name="cloud-alibaba-Sentinel-8804" />
+        <module name="cloud-streamMQprovider-8001" />
+        <module name="cloud-alibaba-nacos-sentienl-openfig-order-85" />
+        <module name="cloud-commoms" />
+        <module name="cloud-alibaba-consumer-83" />
+        <module name="cloud-payment-8003" />
+        <module name="cloud-config-3355" />
+        <module name="cloud-Dashboard-9001" />
+        <module name="cloud-Gateway-9527" />
+        <module name="cloud-paymentconsul-8006" />
+        <module name="cloud-order-80" />
+        <module name="cloud-alibaba-provider-payment-9001" />
+        <module name="a" />
+        <module name="GitTest" />
+        <module name="cloud-alibaba-provider-payment-9002" />
+        <module name="cloudalibaba-sentinel-service-8401" />
+        <module name="cloud-eureka-server-7002" />
+        <module name="cloud-eureka-server-7001" />
+        <module name="cloud-payment-8002" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="cloud-eureka-server-8002" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
